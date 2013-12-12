@@ -6,7 +6,7 @@
     "bowers register"
   ]
   , "dependencies": {
-    , "punycode":"1.2.0"
+     "bower-registry":"0.1.4"
   }
   ,"description":"lithe modules register"
   ,"main":"app.js"
