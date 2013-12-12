@@ -48,6 +48,9 @@ registry.server.get('/list', function(req, res, next) {
                         delete pkg.hits;
                         return pkg;
                     });
+                    res.header("Access-Control-Allow-Origin","*");
+                    res.header("Access-Control-Allow-Headers","X-Requested-With");
+                    res.header("Access-Control-Allow-Methods","GET");
                     res.send(pkgs); 
                 }
             });
