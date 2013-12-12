@@ -6,6 +6,7 @@
     "bowers register"
   ]
   , "dependencies": {
+     "async":"*",
      "bower-registry":"0.1.4"
   }
   ,"description":"lithe modules register"
