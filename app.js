@@ -1,6 +1,7 @@
 var bowerRegistry = require('bower-registry'),
 async = require('async'),
-port = '6789',
+//port = '6789',
+port = '6379',
 host = '127.0.0.1',
 fs = require('fs'),
 Registry = bowerRegistry.Registry,
