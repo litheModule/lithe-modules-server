@@ -7,6 +7,8 @@
   ]
   , "dependencies": {
      "async":"*",
+     "request":"*",
+     "redis":"*",
      "bower-registry":"0.1.4"
   }
   ,"description":"lithe modules register"
